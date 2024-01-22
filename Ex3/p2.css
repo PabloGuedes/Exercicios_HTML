@@ -1,0 +1,56 @@
+body {
+    background-repeat: repeat-x;
+    background-image: url(paleta.jpg);
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+table, th, td{
+    border: solid 1px black;
+}
+
+#a {
+    background-color: #b30000;
+}
+
+#b {
+    background-color: red;
+}
+
+#c {
+    background-color: #660000;
+}
+
+#d {
+    background-color: green;
+}
+
+#e {
+    background-color: #99ff99;
+}
+
+#f {
+    background-color: #004d00;
+}
+
+#g {
+    background-color: blue;
+}
+
+#h {
+    background-color: #ccccff;
+}
+
+#i {
+    background-color: #000066;
+}
+
+#j {
+    text-align: center;
+}
+
+#k {
+    background-image: url(ifsp.png);
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+}

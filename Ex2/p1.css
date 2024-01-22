@@ -1,0 +1,21 @@
+body{
+    background-color: lightgrey;
+}
+
+#a{
+    background-color: lightblue;
+}
+
+#txtred{
+    color: red;
+    font-weight: bold;
+}
+
+#b{
+    background-color: lightsalmon;
+}
+
+#txtblue{
+    color: blue;
+    font-weight: bold;
+}

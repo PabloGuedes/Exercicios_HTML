@@ -1,0 +1,21 @@
+body{
+    background-color: powderblue;
+}
+
+.a{
+    border: solid 1vh black;
+    font-size: 2vw;
+    width: 65%;
+    background-color: white;
+}
+
+h2{
+    text-align: center;
+}
+
+.b{
+    border: solid 1vh black;
+    font-size: 2vw;
+    width: 65%;
+    background-color: white;
+}

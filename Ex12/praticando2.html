@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Praticando 2</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1>Praticando 2 - Formulário com validações</h1>
+    </header>
+    <main class="container">
+      <form class="needs-validation" novalidate>
+        <div class="row">
+          <div class="col-md-4 mb-3 col-xxl-4">
+            <label for="validationCustom01">Nome</label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationCustom01"
+              placeholder=""
+              value=""
+              required
+            />
+            <div class="invalid-feedback">Informe seu nome completo.</div>
+          </div>
+          <div class="col-md-4 mb-3 col-xxl-4">
+            <label for="validationCustom02">E-mail</label>
+            <input
+              type="email"
+              class="form-control"
+              id="validationCustom02"
+              placeholder="seu@email.aqui"
+              value=""
+              required
+            />
+            <div class="invalid-feedback">Informe um endereço de e-mail válido.</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-3 col-xxl-4">
+            <label for="validationCustom03">Telefone</label>
+            <input
+              type="tel"
+              class="form-control"
+              id="validationCustom03"
+              placeholder=""
+              required
+            />
+            <div class="invalid-feedback">Insira um telefone de contato.</div>
+          </div>
+          <div class="col-md-3 mb-3 col-xxl-4">
+            <label for="validationCustom04">Idade</label>
+            <select class="form-select" id="validationCustom04" required> 
+              <option value="">[Escolha uma opção]</option>
+              <option value="1-10">1 a 10 anos</option>
+              <option value="10-20">10 a 20 anos</option>
+              <option value="20-30">20 a 30 anos</option>
+              <option value="30-40">30 a 40 anos</option>
+              <option value="50+">Mais de 50 anos</option>
+            </select>
+            <div class="invalid-feedback">Escolha a opção que representa sua idade atual.</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 mb-3 col-xxl-8">
+            <label class="form-label" for="validationCustom05">Observações</label>
+            <textarea class="form-control is-invalid" id="validationCustom05" rows="2" required></textarea>
+            <div class="invalid-feedback"></div>
+          </div>
+        </div>
+        <button class="btn btn-primary" type="submit">Enviar</button>
+        <button class="btn btn-warning" type="reset">Limpar</button>
+      </form>
+    </main>
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      (function () {
+        "use strict";
+        window.addEventListener(
+          "load",
+          function () {
+            var forms = document.getElementsByClassName("needs-validation");
+            var validation = Array.prototype.filter.call(
+              forms,
+              function (form) {
+                form.addEventListener(
+                  "submit",
+                  function (event) {
+                    if (form.checkValidity() === false) {
+                      event.preventDefault();
+                      event.stopPropagation();
+                    }
+                    form.classList.add("was-validated");
+                  },
+                  false
+                );
+              }
+            );
+          },
+          false
+        );
+      })();
+    </script>
+  </body>
+</html>

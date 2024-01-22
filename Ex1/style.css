@@ -1,0 +1,30 @@
+table, th, td{
+    border: solid 1px black;
+}
+
+#a {
+    background-color: green;
+}
+
+#b {
+    background-color: lightgreen;
+}
+
+#c{
+    background-color: gray;
+    color: white;
+}
+
+#d{
+    background-color: #aaa;
+    color: white;
+}
+
+#e{
+    background-color: black;
+    color: white;
+}
+
+#f{
+    background-color: black;
+}

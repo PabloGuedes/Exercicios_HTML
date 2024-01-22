@@ -1,0 +1,31 @@
+.c1{
+    background-color: green;
+    float: right;
+    width: 5vw;
+    height: 5vw;
+    margin: 1vw;
+}
+
+.c2{
+    background-color: green;
+    float: left;
+    width: 25vw;
+    height: 5vw;
+    margin: 1vw;  
+}
+
+.c3{
+    background-color: green;
+    width: 5vw;
+    height: 25vw;
+    float: left;
+    margin: 1vw;
+}
+
+.c4{
+    background-color: green;
+    width: 5vw;
+    height: 25vw;
+    float: right;
+    margin: 1vw;
+}

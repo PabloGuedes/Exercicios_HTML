@@ -1,0 +1,22 @@
+body{
+    background:  linear-gradient( 45deg, lightyellow, lightgreen, lightblue );
+    width: 98vw;
+    height: 165vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#identar{
+    text-align: center;
+}
+
+#centralizar{
+    text-align: center;
+}
+
+h1, h3, p{
+    text-align: justify;
+    text-indent: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando 1</title>
+</head>
+<body>
+    <h1>Praticando 1 - Formulários HTML</h1>
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="nome" id="nome" name="nome" value="Pablo"><br><br>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="seu@email.aqui"><br><br>
+        <label for="marca">Marca de carro preferida:</label>
+        <select name="marca" id="marca">  
+            <option value="Chevrolet">Chevrolet</option>
+            <option value="Alfa Romeo">Alfa Romeo</option>
+            <option value="Renault">Renault</option>
+            <option value="Mercedes-Benz">Mercedes-Benz</option>
+            <option value="Ferrari">Ferrari</option>
+        </select><br><br>
+        <label for="observacoes">Observações:</label>
+        <textarea name="observacoes" id="observacoes" cols="25" rows="5">
+        </textarea><br><br>
+        <label for="linguagem_fav">Linguagem Web favorita:</label>
+        <input type="radio" id="html" name="linguagem_fav">
+        <label for="html">HTML</label>
+        <input type="radio" id="css" name="linguagem_fav">
+        <label for="css">CSS</label>
+        <input type="radio" id="javascript" name="linguagem_fav">
+        <label for="javascript">JavaScript</label><br><br>
+        <label for="filmes">Filmes que eu quero ver quando lançar:</label>
+        <br><input type="checkbox" id="batman" name="batman">
+        <label for="batman">Batman - O Cavaleiro Das Trevas</label>
+        <br><input type="checkbox" id="vingadores" name="vingadores">
+        <label for="vingadores">Vingadores: Guerra Infinita</label>
+        <br><input type="checkbox" id="topgun" name="vingadores">
+        <label for="topgun">Top Gun: Maverick</label>
+        <br><input type="checkbox" id="matrix" name="matrix">
+        <label for="matrix">Matrix</label>
+        <br><input type="checkbox" id="starwars" name="starwars">
+        <label for="starwars">Star Wars: O Despertar da Força</label><br><br>
+        <input type="submit" value="Enviar">
+        <button type="Reset" value="Limpar">Limpar</button>
+    </form>
+</body>
+</html>

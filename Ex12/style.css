@@ -1,0 +1,42 @@
+p{
+    font-size: large;
+}
+body{
+    margin: 2%;
+}
+#red {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border: 5px solid black;
+  margin: 10px;
+}
+
+#blue {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border: 5px solid black;
+  margin: 10px;
+}
+
+#green {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border: 5px solid black;
+  margin: 10px;
+}
+
+.blocos {
+  display: flex;
+}
+#img{
+    display: flex;
+    justify-content: center;
+}
+
+span{
+    height: 0.7vh;
+    background-color: lightyellow;
+}

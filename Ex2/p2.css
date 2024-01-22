@@ -1,0 +1,27 @@
+body{
+    background-color: lightgray;
+}
+
+#a{
+    background-color: lightgreen;
+}
+
+#b{
+    background-color: green;
+}
+
+#c{
+    background-color: darkgreen;
+}
+
+#d{
+    background-color: brown;
+}
+
+#e{
+    background-color: red;
+}
+
+#f{
+    background-color: darkred;
+}

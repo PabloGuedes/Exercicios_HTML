@@ -1,0 +1,144 @@
+#a {
+    background-color: lightgreen;
+    text-align: center;
+}
+
+#b {
+    text-decoration: underline;
+    text-align: left;
+    font-size: 1.5em;
+    text-indent: 1em;
+}
+
+#c {
+    background-color: lightgreen;
+}
+
+#d {
+    color: blue;
+}
+
+#e {
+    color: red;
+}
+
+#f {
+    color: yellow;
+}
+
+#g {
+    background-color: lightblue;
+    text-align: center;
+}
+
+#i {
+    text-align: center;
+}
+
+#j {
+    text-align: right;
+}
+
+#k {
+    text-align: justify;
+}
+
+#l {
+    text-decoration: line-through;
+}
+
+#m {
+    text-decoration: underline;
+}
+
+#n {
+    text-transform: capitalize;
+}
+
+#o {
+    text-transform: uppercase;
+}
+
+#p {
+    text-indent: 5em;
+}
+
+#q {
+    text-indent: 10em;
+}
+
+#r {
+    line-height: 1em;
+}
+
+#s {
+    line-height: 1.5em;
+}
+
+#t {
+    line-height: 2.5em;
+}
+
+#u {
+    text-decoration: underline;
+    text-align: left;
+    font-size: 1.5em;
+    text-indent: 1em;
+}
+
+#v {
+    background-color: lightblue;
+}
+
+#w {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#x {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#y {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#z {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#aa {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#bb {
+    font-style: italic;
+}
+
+#cc {
+    font-weight: bold;
+}
+
+#dd {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+}
+
+#ee {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
+}
+
+#ff {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+#gg {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5em;
+}
+
+#hh {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+}
